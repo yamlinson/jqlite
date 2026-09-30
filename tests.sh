@@ -4,7 +4,7 @@
 #
 #   gcc -std=c11 -Wall -Wextra -g -O0 -fsanitize=address,undefined src/jqlite.c -o bin/jqlite
 #
-# Usage: ./test.sh            (set VERBOSE=1 to also show program output)
+# Usage: ./tests.sh            (set VERBOSE=1 to also show program output)
 
 BIN="${BIN:-./bin/jqlite}"
 

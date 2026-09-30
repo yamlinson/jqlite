@@ -15,7 +15,7 @@ Valgrind was being difficult on my distro, but AddressSanitizer confirmed.
 ## Build and test
 
 Compile with `gcc -std=c11 -Wall -Wextra -g -O0 -fsanitize=address,undefined src/jqlite.c -o bin/jqlite`
-and run `./test.sh`.
+and run `./tests.sh`.
 
 Some other fun JSON one-liners to run through:
 
